@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Dope Dance Academy
+    block style  
+  body
+    nav#navbar
+            ul
+                div#logo
+                  img(src="../static/icon.png")
+                  | Dope
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/contact") Contact Us]
+                li #[a(href="/services") Services ]
+    block content
+    footer#footer
+        | copyright @ 2020 dopedanceacademy.com all rights reserved
+    block scripts

@@ -1,0 +1,55 @@
+extends base.pug
+
+
+
+
+block style
+    style 
+        include ../static/style.css
+
+//- block foot
+//-     footer#footer
+//-             | copyright @ 2020 dopedanceacademy.com all rights reserved
+
+block content
+        section#introsection
+            div#introtext Welcome   To   Dope   Dance Academy 
+            div#small | EAT | SLEEP | DANCE | REPEAT |
+        
+        section#missionsection
+            h2 Our Mission 
+            div.card 
+                h3 dance perfection
+                div.card-box
+                   div.card-img
+                        img(src="../static/1.png") 
+
+                   div.card-content
+                        p this is the best dance academy      
+            div.card 
+                h3 dance perfection
+                div.card-box
+                   div.card-img
+                        img(src="../static/1.png") 
+
+                   div.card-content
+                        p this is the best dance academy     
+            div.card 
+                h3 dance perfection
+                div.card-box
+                   div.card-img
+                        img(src="../static/1.png") 
+
+                   div.card-content
+                        p this is the best dance academy     
+        
+        section#sponsorsection
+            h2 Section for Sponsor
+            div#sponsors
+               img(src="../static/apple.png" alt="sponsor image" class="spimage")
+               img(src="../static/apple.png" alt="sponsor image" class="spimage")
+               img(src="../static/apple.png" alt="sponsor image" class="spimage")
+               img(src="../static/apple.png" alt="sponsor image" class="spimage")
+block scripts
+    script 
+        include ../static/index.js   
